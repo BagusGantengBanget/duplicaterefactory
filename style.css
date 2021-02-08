@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400&display=swap");
+
+/*Baguian Ke 1*/
+body{
+	margin: 0;
+	padding : 0;
+	font-size: 15px;
+	font-family: "Raleway", "Montserrat", sans-serif;
+	background-color: #ffffff;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+ color: #fff;
+ padding-top: 20px;
+ min-height: 30px;
+ background : url(img/back1.png) no-repeat 0px -30px;
+ background-size: cover;
+ background-position: center;
+}
+
+header #logo {
+	float: left;
+}
+/*svg {
+    bottom: 0;
+    width: 100%;
+    height: 8vw;
+    fill: #0a1429;
+}*/
+
+header #logo img {
+	width: 150px;
+	margin: 0px;
+	margin-left: 30px;
+}
+
+header nav {
+	float: right;
+	margin-top: 25px ;
+	margin-right: 50px;
+	align-items: center;
+	padding-top: 0px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+header #logo, header .active a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#content1 {
+	min-height: 350px;
+	font-size: 20px;
+}
+
+#content1 h1 {
+	margin-left: 60px;
+}
+
+#content1 p {
+	margin-left: 60px;
+	width: 65%;
+	line-height: 32px;
+	font-size: 16px;
+}
+
+
+/*Baguian Ke 2*/
+
+#content2 {
+	font-size: 20px;
+	background-color: #0a1429;
+	color: white;
+	height: 100%;
+}
+
+#content2 h1 {
+	padding-left: 30px;
+	color: white;
+}
+
+#content2 img {
+	width: 150px; 
+	padding-left: 60px;
+	float: left;
+}
+
+#content2 h1 {
+	color: grey;
+}
+
+#content2 .paragraf1 p {
+	font-size: 18px;
+	color: white;
+	padding-left: 250px;
+}
+
+#content2 .paragraf1 img {
+	width: 30px;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+
+#content2 .paragraf1 table {
+	padding-left: 60px;
+	font-size: 16px;
+}
+
+#content2 .paragraf2 {
+	padding-left: 0px;
+	float: right;
+	text-align: center;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+#content2 .paragraf2 a {
+	text-decoration: none;
+	color: white;
+}
+
+#content2 .button {
+	padding-left: 0px;
+	float: right;
+	text-align: center;
+	padding-right: 0px;
+	font-size: 18px;
+}
+
+#content2 .button a {
+	text-decoration: none;
+	color: white;
+
+}
+
+/*Baguian Ke 3*/
+
+#review {
+ 	text-align: center;
+ 	padding-top: 30px;
+ 	height: 100%;
+ 	background: linear-gradient(to top, #ffffff 55%, #f3f4f5 45%); 
+ 	background-size: cover;
+ 	background-position: center;
+}
+
+#review .container h1 {
+	font-size: 38px;
+	letter-spacing: 2px;
+	color: #0a1429;
+}
+
+#review p {
+	font-size: 16px;
+	color: grey;
+}
+
+#review a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size: 18px;
+	color: #0a1429;
+}
+
+#review .boxprofile1 {
+	display: inline-block;
+	text-align: left;
+	height: 780px;
+	width: 400px;
+	padding: 20px;
+	margin: 0px 20px 20px 20px;
+	background-color: white;
+	box-shadow: 3px 3px 10px;
+}
+
+#review .boxprofile1 p {
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin-bottom: 32px;
+
+}
+
+#review .boxprofile1 p a {
+	font-size: 28px;
+	margin-top: 0px;
+}
+
+#review .boxprofile1 img {
+	width: 400px;
+}
+
+#review .boxprofile2 {
+	display: inline-block;
+	text-align: left;
+	height: 780px;
+	width: 400px;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 20px 0px 20px;
+	background-color: white;
+	box-shadow: 3px 3px 10px;
+}
+
+#review .boxprofile2 p {
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#review .boxprofile2 p a {
+	font-size: 28px;
+
+}
+
+#review .boxprofile2 img {
+	width: 400px;
+}
+
+#rev{
+	margin-top: 600px;
+	height: 500px;
+}
+.reviewlainnya a {
+	color: black;
+	text-decoration: none;
+	background-color: none; 
+	border: 3px solid;
+	padding: 15px 50px 15px 50px; 
+	border-radius: 10px; 
+	border-color: orange;
+}
+
+/*Bagian Ke 4*/
+#proyek {
+	font-size: 20px;
+	background-color: #0a1429;
+	color: white;
+	height: 100%;
+}
+
+#proyek h1 {
+	padding-top:0px;
+	padding-left: 60px;
+	color: white;
+}
+
+#proyek img {
+	width: 150px; 
+	padding-left: 60px;
+	float: left;
+}
+
+#proyek h1 {
+	color: grey;
+}
+
+#proyek .paragraf1{
+	float: left;
+	display: inline-block;
+	width: 600px;
+}
+#proyek .paragraf1 p {
+	font-size: 18px;
+	color: white;
+	padding-left: 43px;
+}
+#proyek .paragraf1 p b {
+	padding-left: 40px
+	
+}
+
+#proyek .paragraf1 img {
+	width: 30px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+#proyek .paragraf1 table {
+	padding-left: 0px;
+	font-size: 16px;
+}
+
+#proyek .paragraf2 {
+	padding-top: 20px;
+	padding-left: 0px;
+	float: center;
+	text-align: center;
+	padding-right: 50px;
+	font-size: 18px;
+}
+
+#proyek .paragraf2 a {
+	text-decoration: none;
+	color: white;
+}
+#proyek .paragraf2 a u {
+	margin-left: 250px;
+	text-align: right;
+}
+#proyek .daftar{
+	text-align: center;
+	float: center;
+}
+#proyek .daftar a {
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	margin: 0px 20px 0px 20px;
+}
+#proyek .daftar a :hover {
+	background : #e28613;
+	color: black;
+}
+
+/*Bagian ke 5*/
+#insight {
+	text-align: center;
+ 	padding-top: 50px;
+ 	background-image:url(img/back2.png); 
+ 	background-size: cover;
+ 	background-position: center;
+}
+
+#insight p {
+	font-size: 20px;
+	color: grey;
+	letter-spacing: 1px;
+}
+
+#insight h1{
+	font-size: 48px;
+	margin-top: 30px;
+}
+
+#insight .slide {
+  margin: auto;
+  width: 100%;
+  /* fraction*/
+}
+
+#insight .slide img {
+  width: 330px;
+  margin: 0px 10px 0px 10px;
+  border-radius: 10px;
+  /* fraction*/
+}
+
+#insight .content8 {
+	margin: 0px auto 0px auto;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#insight .content8 a :hover {
+	color: #e28613
+}
+
+#insight .content8 a {
+	text-align: center;
+	color: #4399df;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+/*Bagian ke 6*/
+#sponsor {
+	text-align: center;
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ 	background-color: #ecf1f6;
+}
+
+#sponsor .content9 p b {
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 36px; 
+	color: #0a152a;
+	padding-bottom: 20px;
+}
+
+#sponsor .iklansponsor{
+}
+
+#sponsor .iklansponsor table img {
+	width: 190px;
+	padding: 0px 5px 0px 5px;
+}
+
+/*Bagian ke 7*/
+#info {
+	background-color: #0c1529;
+	padding-top: 20px;
+	color: #e9e9e9;
+	border-bottom: 1px solid #8d8d8d;
+} 
+
+#info .info-link {
+	float: center;
+	width: 600px;
+	height: 100%;
+	padding-top: 15px;
+}
+
+#info .info-link table {
+	text-align: left;
+	text-decoration: none;
+	float: left;
+	color: #e9e9e9;
+	width: 100%;
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+}
+
+#info .info-link tr td a :hover {
+	color: #e28613;
+}
+
+#info .info-link table tr td {
+	padding-bottom: 10px;
+}
+
+#info .info-link table a {
+	text-align: left;
+	text-decoration: none;
+	color: #e9e9e9;
+	padding: 0px 30px 0px 30px;
+}
+
+
+
+#info .address  {
+	float: right;
+
+	width: 550px;
+}
+#info .address table {
+	float: center;
+	width: 100%;
+	padding-right: 150px;
+}
+
+#info  .address tr td a :hover {
+	color: #e28613;
+}
+
+#info .address a {
+	color: #e9e9e9;
+	text-decoration: none;
+}
+
+#info  .address table tr td {
+	padding-bottom: 10px;
+}
+
+#info  .address table img {
+	padding-right:10px;
+}
+
+#info  .address table td {
+	text-align: left;
+	text-decoration: none;
+	color: #e9e9e9;
+	padding: 0px 0px 0px 0px;
+}
+
+footer {
+	background-color: #0c1529
+}
+
+footer p {
+	
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 60px;
+	color: #e9e9e9;
+}
+
+footer a {
+	color: #e9e9e9;
+}
+
+footer a :hover {
+	color: #e28613;
+}
